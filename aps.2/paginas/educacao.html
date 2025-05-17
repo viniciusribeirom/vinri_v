@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Educação Sustentável | Enersy</title>
+    <link rel="stylesheet" href="../css/estilo.css" />
+    <link rel="icon" href="../logo/logo-favicon.png" />
+</head>
+
+<body>
+    <nav>
+        <img src="../logo/logo-light-transparent.png" alt="Logo Enersy" class="logo" />
+      
+        <ul class="nav-main">
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="educacao.html">Educação</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      
+        <button type="button" class="menu-toggle" id="menu-toggle">&#9776;</button>
+      
+        <ul class="nav-list" id="nav-list">
+          <li><a href="comparador.html">Comparador</a></li>
+          <li><a href="simulador.html">Simulador</a></li>
+          <li><a href="painel.html">Painel</a></li>         
+          <li><a href="fontes.html">Fontes de Energia</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+          <li><a href="entrar.html">Entrar</a></li>
+        </ul>
+      </nav>
+
+
+    <header class="header-home">
+        <h1>Aprenda com a Enersy</h1>
+        <p>Conteúdos educativos para transformar gerações com energia limpa</p>
+    </header>
+
+    <main class="conteudo">
+
+        <section class="cards">
+            <div class="card-educacao">
+                <h2>🎬 Vídeos Explicativos</h2>
+                <p>Assista a vídeos curtos e didáticos sobre como cada fonte de energia funciona.</p>
+                <a href="#videos"><button class="btn">Ver vídeos</button></a>
+            </div>
+
+            <div class="card-educacao">
+                <h2>🧠 Quizzes Interativos</h2>
+                <p>Teste seus conhecimentos sobre sustentabilidade com perguntas divertidas.</p>
+                <a href="#quizzes"><button class="btn">Começar quiz</button></a>
+            </div>
+
+            <div class="card-educacao">
+                <h2>🧪 Projetos Escolares</h2>
+                <p>Inspire-se com ideias de experimentos e maquetes sobre energia renovável.</p>
+                <a href="#projetos"><button class="btn">Ver projetos</button></a>
+            </div>
+        </section>
+
+        <section id="videos" class="conteudo-detalhado">
+            <h2>🎥 Vídeos Educacionais</h2>
+            <p>Esses vídeos ajudam estudantes e educadores a entenderem conceitos como aerogeradores, painéis solares e
+                turbinas hidráulicas.</p>
+                
+                <video width="50%" controls poster="capa-video.jpg">
+                  <source src="videos/video-do-youtube.mp4" type="video/mp4">
+                </video>
+        </section>
+
+        <section id="quizzes" class="conteudo-detalhado">
+            <h2>🧩 Quiz Rápido</h2>
+            <form id="quiz-form">
+
+                <p>1. Qual fonte de energia depende da luz solar?</p>
+                <label for="q1-hidro">
+                    <input type="radio" name="q1" id="q1-hidro" value="errado" />
+                    Hidrotérmica
+                </label><br>
+                <label for="q1-solar">
+                    <input type="radio" name="q1" id="q1-solar" value="certo" />
+                    Solar 
+                </label><br>
+                <label for="q1-eolica">
+                    <input type="radio" name="q1" id="q1-eolica" value="errado" />
+                    Biomassa
+                </label><br><br>
+
+                <!-- Pergunta 2 -->
+                <p>2. O que não é uma vantagem da energia eólica?</p>
+                <label for="q2-nao-polui">
+                    <input type="radio" name="q2" id="q2-nao-polui" value="errado" />
+                    Não polui
+                </label><br>
+                <label for="q2-sem-vento">
+                    <input type="radio" name="q2" id="q2-sem-vento" value="certo" />
+                    Funciona sem vento 
+                </label><br>
+                <label for="q2-renovavel">
+                    <input type="radio" name="q2" id="q2-renovavel" value="errado" />
+                    É renovável
+                </label><br><br>
+
+
+                <button type="submit">Ver resultado</button>
+            </form>
+            <p id="quiz-resultado"></p>
+        </section>
+
+        <section id="projetos" class="conteudo-detalhado">
+            <h2>🛠 Projetos Escolares</h2>
+            <ul>
+                <li><strong>Mini aerogerador:</strong> Com papelão, palitos e motorzinho você pode simular geração
+                    eólica.</li>
+                <li><strong>Forno solar:</strong> Use caixa de pizza, papel alumínio e filme plástico para aquecer
+                    alimentos.</li>
+                <li><strong>Simulador de represa:</strong> Com garrafa PET, encanamento e água, demonstre o
+                    funcionamento de uma usina hidrelétrica.</li>
+            </ul>
+        </section>
+    </main>
+
+    
+  <footer class="footer">
+    <div class="footer-area">
+      <h3>Enersy</h3>
+      <p>Transformando energia limpa em conhecimento para um futuro mais sustentável.</p>
+      <div class="social">
+        <label for="">
+        <a href="#" target="_blank" aria-label="Facebook" class="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" target="_blank" aria-label="Instagram" class="instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" target="_blank" aria-label="twitter" class="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" target="_blank" aria-label="linkedin" class="linkedin">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" aria-label="Youtube" class="youtube">
+          <i class="fab fa-youtube"></i>
+        </a>
+        </label>
+      </div>
+    </div>
+  
+    <div class="footer-area">
+      <h4>Links Rápidos</h4>
+      <ul>
+        <li><a href="../index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="simulador.html">Simulador</a></li>
+        <li><a href="comparador.html">Comparador</a></li>
+        <li><a href="educacao.html">Educação</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+  
+    <div class="footer-area">
+      <h4>Fontes de Energia</h4>
+      <ul>
+        <li><a href="#">Solar</a></li>
+        <li><a href="#">Eólica</a></li>
+        <li><a href="#">Hidrelétrica</a></li>
+        <li><a href="#">Biomassa</a></li>
+        <li><a href="#">Geotérmica</a></li>
+      </ul>
+    </div>
+  
+    <div class="footer-area">
+      <h4>Contato</h4>
+      <ul>
+        <li><i class="phone"></i> (11) 3000-0000</li>
+        <li><i class="envelope"></i> enersy@gmail.com</li>
+      </ul>
+    </div>
+  </footer>
+  
+  <div class="footer-fimpg">
+    © 2025 Enersy - UNIP-Tatuape
+  </div>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/script.js"></script>
+
+
+</body>
+
+</html>

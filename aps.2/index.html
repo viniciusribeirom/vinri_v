@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enersy | Energia Sustentável</title>
+  <link rel="stylesheet" href="css/estilo.css" />
+  <link rel="icon" href="logo/logo-favicon.png" />
+</head>
+<body>
+  <nav>
+    <img src="logo/logo-light-transparent.png" alt="Logo Enersy" class="logo" />
+  
+    <ul class="nav-main">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="paginas/sobre.html">Sobre</a></li>
+      <li><a href="paginas/educacao.html">Educação</a></li>
+      <li><a href="paginas/blog.html">Blog</a></li>
+    </ul>
+  
+    <button type="button" class="menu-toggle" id="menu-toggle">&#9776;</button>
+  
+    <ul class="nav-list" id="nav-list">
+      <li><a href="paginas/comparador.html">Comparador</a></li>
+      <li><a href="paginas/simulador.html">Simulador</a></li>
+      <li><a href="paginas/painel.html">Painel</a></li>
+      
+      <li><a href="paginas/fontes.html">Fontes de Energia</a></li>
+      <li><a href="paginas/cadastro.html">Cadastro</a></li>
+      <li><a href="paginas/entrar.html">Entrar</a></li>
+    </ul>
+  </nav>
+  
+
+  <header class="header-home">
+    <h1>Transformamos energia limpa,<br> em conhecimento</h1>
+    <p>Coordenando o futuro das energias renováveis no Brasil</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Nosso Propósito</h2>
+      <p>Transformar o acesso à energia limpa através da inovação e educação sustentável.</p>
+      <a href="paginas/simulador.html" class="btn-cta">Experimente nosso Simulador</a>
+    </section>
+    
+    <section class="destaques">
+    <div class="destaque">
+      <img src="imagens/sol.png" alt="Energia Solar">
+      <h3>Energia Solar</h3>
+      <p>Explore o potencial do sol como fonte limpa e abundante.</p>
+    </div>
+    <div class="destaque">
+      <img src="imagens/vento.png" alt="Energia Eólica">
+      <h3>Energia Eólica</h3>
+      <p>Conheça como os ventos impulsionam um futuro mais verde.</p>
+    </div>
+    <div class="destaque">
+      <img src="imagens/educ.png" alt="Educação Sustentável">
+      <h3>Educação Sustentável</h3>
+      <p>Transformamos conhecimento em ação para um mundo melhor.</p>
+    </div>
+  </section>
+
+  <section class="form">
+    <h2>Contato</h2>
+    <form>
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone"><br><br>
+
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco"><br><br>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade"><br><br>
+
+        <label for="estado">Estado:</label>
+        <select id="estado" name="estado">
+            <option value="">Selecione</option>
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="MG">MG</option>
+            <option value="RS">RS</option>
+        </select><br><br>
+
+        <label for="observacoes">Observações:</label>
+        <textarea id="observacoes" name="observacoes" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+  </section>
+  </main>
+
+
+  
+  <footer class="footer">
+    <div class="footer-area">
+      <h3>Enersy</h3>
+      <p>Transformando energia limpa em conhecimento para um futuro mais sustentável.</p>
+      <div class="social">
+        <label for="redes-sociais">
+        <a href="#" target="_blank" aria-label="Facebook" class="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/empresa_enersy?igsh=MWdwaDc4enpleXRwYg==" target="_blank" aria-label="Instagram" class="instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" target="_blank" aria-label="twitter" class="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" target="_blank" aria-label="linkedin" class="linkedin">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" aria-label="Youtube" class="youtube">
+          <i class="fab fa-youtube"></i>
+        </a>
+        </label>
+      </div>
+    </div>
+  
+    <div class="footer-area">
+      <h4>Links Rápidos</h4>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="paginas/sobre.html">Sobre</a></li>
+        <li><a href="paginas/simulador.html">Simulador</a></li>
+        <li><a href="paginas/comparador.html">Comparador</a></li>
+        <li><a href="paginas/educacao.html">Educação</a></li>
+        <li><a href="paginas/blog.html">Blog</a></li>
+      </ul>
+    </div>
+  
+    <div class="footer-area">
+      <h4>Fontes de Energia</h4>
+      <ul>
+        <li><a href="#">Solar</a></li>
+        <li><a href="#">Eólica</a></li>
+        <li><a href="#">Hidrelétrica</a></li>
+        <li><a href="#">Biomassa</a></li>
+        <li><a href="#">Geotérmica</a></li>
+      </ul>
+    </div>
+  
+    <div class="footer-area">
+      <h4>Contato</h4>
+      <ul>
+        <li><i class="phone"></i> (11) 3000-0000</li>
+        <li><i class="envelope"></i> enersy@gmail.com</li>
+      </ul>
+    </div>
+  </footer>
+  
+  <div class="footer-fimpg">
+    © 2025 Enersy - UNIP-Tatuape
+  </div>
+  
+  <script src="js/script.js"></script>
+  
+</body>
+</html>
