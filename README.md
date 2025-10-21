@@ -12,5 +12,3 @@ Meu nome é vinicius Ribeiro
 viniciusgg502@gmail.com
 
 @vinri_v
-
-![me](https://media.stickerswiki.app/macaquico/2312369.512.webp)
