@@ -3,8 +3,8 @@
 
 Meu nome é vinicius Ribeiro
 
-- Estou estudando na Alura
-- Estou me desenvolvendo na linguagem JavaScript
+- Estou estudando na UNIP
+- Estou me desenvolvendo na linguagem JavaScript, Python
 - Utilizo esse espaço para minha organização e compartilhamento dos meus projetos desenvolvidos
 
 ### Você pode entrar em contato comigo :
