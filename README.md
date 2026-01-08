@@ -9,6 +9,8 @@ Meu nome é vinicius Ribeiro
 
 ### Você pode entrar em contato comigo :
 
+### Email ###
 viniciusgg502@gmail.com
 
+### Instagram ###
 @vinri_v
